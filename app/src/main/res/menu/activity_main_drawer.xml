@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group1">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_apps_black_24dp"
+            android:title="My apps and games" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="My notifications" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_autorenew_black_24dp"
+            android:title="Subscriptions" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group2">
+            <item
+                android:id="@+id/nav_Home"
+                android:icon="@drawable/ic_home_black_24dp"
+                android:title="Home" />
+            <item
+                android:id="@+id/nav_Games"
+                android:icon="@drawable/ic_videogame_asset_black_24dp"
+                android:title="Games" />
+            <item
+                android:id="@+id/nav_Movies"
+                android:icon="@drawable/ic_local_movies_black_24dp"
+                android:title="Movies" />
+            <item
+                android:id="@+id/nav_Musics"
+                android:icon="@drawable/ic_library_music_black_24dp"
+                android:title="Musics" />
+            <item
+                android:id="@+id/nav_Books"
+                android:icon="@drawable/ic_book_black_24dp"
+                android:title="Books" />
+            <item
+                android:id="@+id/nav_Newsstand"
+                android:icon="@drawable/ic_featured_play_list_black_24dp"
+                android:title="Newsstand" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group3">
+        <item
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Account" />
+        <item
+            android:icon="@drawable/ic_redeem_black_24dp"
+            android:title="Redeem" />
+        <item
+            android:icon="@drawable/ic_bookmark_border_black_24dp"
+            android:title="Wishlist" />
+        <item
+            android:icon="@drawable/ic_security_black_24dp"
+            android:title="Play Protect" />
+        <item
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />
+    </group>
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/group4">
+        <item
+            android:title="Help and feedback"/>
+        <item
+            android:title="Parent Guide"/>
+        <item
+            android:title="About Google Play"/>
+    </group>
+</menu>
